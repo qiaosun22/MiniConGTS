@@ -118,6 +118,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Special thanks to the authors and contributors of the `transformers` library by Hugging Face.
 
----
-
-Feel free to further customize and expand this README to suit your project's needs.
