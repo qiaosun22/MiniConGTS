@@ -88,6 +88,29 @@ MiniConGTS/
     python main.py --max_sequence_len 100 --batch_size 16 --epochs 2000 --dataset res14
     ```
 
+    for more parameter setting:
+   ```
+   python main.py \
+    --max_sequence_len 100 \
+    --sentiment2id "{'negative': 2, 'neutral': 3, 'positive': 4}" \
+    --model_cache_dir "./modules/models/" \
+    --model_name_or_path "roberta-base" \
+    --batch_size 16 \
+    --device "cuda" \
+    --prefix "./data/" \
+    --data_version "D1" \
+    --dataset "res14" \
+    --bert_feature_dim 768 \
+    --epochs 2000 \
+    --class_num 5 \
+    --task "triplet" \
+    --model_save_dir "./modules/models/saved_models/" \
+    --log_path "./logs/training_log.log" \
+    --learning_rate 1e-3 \
+    --warmup_steps 500 \
+    --weight_decay 0.01
+
+   ```
 Alternatively, you can start your jupyter kernal and debug each intermidiate step easily in a notebook using:
 ```
 main.ipynb
