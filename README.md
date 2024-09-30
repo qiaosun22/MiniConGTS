@@ -1,3 +1,5 @@
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minicongts-a-near-ultimate-minimalist/aspect-sentiment-triplet-extraction-on-aste)](https://paperswithcode.com/sota/aspect-sentiment-triplet-extraction-on-aste?p=minicongts-a-near-ultimate-minimalist)
+
 # MiniConGTS
 
 ## Overview
