@@ -1,6 +1,6 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/minicongts-a-near-ultimate-minimalist/aspect-sentiment-triplet-extraction-on-aste)](https://paperswithcode.com/sota/aspect-sentiment-triplet-extraction-on-aste?p=minicongts-a-near-ultimate-minimalist)
 
-# MiniConGTS
+# MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction
 
 ## Overview
 This repository serves as the official codebase for my recent work, "MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction". The project implements a minimalist tagging scheme and a novel token-level contrastive learning strategy to enhance aspect sentiment triplet extraction performance. The approach leverages the power of Pretrained Language Models (PLMs), such as BERT, RoBERTa etc. to achieve state-of-the-art results without relying on complex classification head designs or external semantic enhancements.
