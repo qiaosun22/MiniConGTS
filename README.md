@@ -71,7 +71,7 @@ MiniConGTS/
 2. **Install dependencies:**
 
    ```bash
-
+   conda env create -f environment.yml
    ```
 
 ### Preparing the Data
