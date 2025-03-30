@@ -2,6 +2,20 @@
 
 # MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction
 
+## Update
+2025-03-30:
+
+Fixed the missing filesc for your fast installing the reliances and getting started.
+
+Now you can enjoy this repo by simply clone and run 
+
+```bash
+conda env create -f environment.yml
+python main.py
+```
+
+Have fun!
+
 ## Overview
 
 This repository serves as the official codebase for my recent work, "MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction". The project implements a minimalist tagging scheme and a novel token-level contrastive learning strategy to enhance aspect sentiment triplet extraction performance. The approach leverages the power of Pretrained Language Models (PLMs), such as BERT, RoBERTa etc. to achieve state-of-the-art results without relying on complex classification head designs or external semantic enhancements.
