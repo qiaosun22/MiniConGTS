@@ -5,7 +5,7 @@
 ## Update
 2025-03-30:
 
-Fixed the missing filesc for your fast installing the reliances and getting started.
+Fixed the missing files for your fast installing the reliances and getting started.
 
 Now you can enjoy this repo by simply clone and run 
 
