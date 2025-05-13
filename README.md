@@ -141,11 +141,25 @@ The model is evaluated on the test set after training. The results, including me
 If you use this code in your research, please cite the paper as follows:
 
 ```
-@article{yourpaper2024,
-  title={MiniConGTS: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction},
-  author={Your Name},
-  journal={Journal Name},
-  year={2024}
+@inproceedings{sun-etal-2024-minicongts,
+    title = "{M}ini{C}on{GTS}: A Near Ultimate Minimalist Contrastive Grid Tagging Scheme for Aspect Sentiment Triplet Extraction",
+    author = "Sun, Qiao  and
+      Yang, Liujia  and
+      Ma, Minghao  and
+      Ye, Nanyang  and
+      Gu, Qinying",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.165/",
+    doi = "10.18653/v1/2024.emnlp-main.165",
+    pages = "2817--2834",
+    abstract = "Aspect Sentiment Triplet Extraction (ASTE) aims to co-extract the sentiment triplets in a given corpus. Existing approaches within the pretraining-finetuning paradigm tend to either meticulously craft complex tagging schemes and classification heads, or incorporate external semantic augmentation to enhance performance. In this study, we, for the first time, re-evaluate the redundancy in tagging schemes and the internal enhancement in pretrained representations. We propose a method to improve and utilize pretrained representations by integrating a minimalist tagging scheme and a novel token-level contrastive learning strategy. The proposed approach demonstrates comparable or superior performance compared to state-of-the-art techniques while featuring a more compact design and reduced computational overhead. Additionally, we are the first to formally evaluate GPT-4`s performance in few-shot learning and Chain-of-Thought scenarios for this task. The results demonstrate that the pretraining-finetuning paradigm remains highly effective even in the era of large language models."
 }
 ```
 
